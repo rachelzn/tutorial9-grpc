@@ -8,10 +8,10 @@ edition = "2021"
  name = "grpc-server"
  path = "src/grpc_server.rs"
 
- [[bin]]
+[[bin]]
  name = "grpc-client"
  path = "src/grpc_client.rs"
- 
+
 [dependencies]
 tonic = "0.7"
 prost = "0.10"
